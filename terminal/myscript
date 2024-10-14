@@ -1,0 +1,7 @@
+#!/bin/bash
+cd /c/termin/
+mkdir d10 d20 d30
+cd d10/
+touch json10.json json20.json txt10.txt txt20.txt txt30.txt
+ls -la
+mv json10.json txt10.txt /c/termin/d20/ 
