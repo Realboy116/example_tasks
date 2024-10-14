@@ -1,1 +1,1 @@
-# example_tasks
+Тестовые задания по теме linux terminal
