@@ -1,0 +1,217 @@
+{
+	"info": {
+		"_postman_id": "0739d941-9f33-4804-9715-8b0f1146c1e2",
+		"name": "Mocs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38918764"
+	},
+	"item": [
+		{
+			"name": "https://postman-echo.com/get?test=123",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/get?test=123",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "test",
+							"value": "123"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://postman-echo.com/get?test=123",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://postman-echo.com/get?test=123",
+							"protocol": "https",
+							"host": [
+								"postman-echo",
+								"com"
+							],
+							"path": [
+								"get"
+							],
+							"query": [
+								{
+									"key": "test",
+									"value": "123"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 16 Oct 2024 15:29:12 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "542"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "nginx/1.25.3"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"21e-vZBKGTc3VlhEudN7gsN9QkVDorc\""
+						},
+						{
+							"key": "set-cookie",
+							"value": "sails.sid=s%3A3WWMmq5a9xHtbdt1dXhubeCXxYO4MsyK.OluxDkNy8RLSFbACzYvxSJVS2QXOTxWTW6hK%2FwTRQ3U; Path=/; HttpOnly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"args\": {\n        \"test\": \"123\"\n    },\n    \"headers\": {\n        \"host\": \"postman-echo.com\",\n        \"x-request-start\": \"t=1729092552.067\",\n        \"connection\": \"close\",\n        \"x-forwarded-proto\": \"https\",\n        \"x-forwarded-port\": \"443\",\n        \"x-amzn-trace-id\": \"Root=1-670fdbc8-440367da4755264270c0c15d\",\n        \"user-agent\": \"PostmanRuntime/7.42.0\",\n        \"accept\": \"*/*\",\n        \"cache-control\": \"no-cache\",\n        \"postman-token\": \"1a586604-8088-4486-873e-cb222e243b6c\",\n        \"accept-encoding\": \"gzip, deflate, br\"\n    },\n    \"url\": \"https://postman-echo.com/get?test=123\"\n}"
+				}
+			]
+		},
+		{
+			"name": "https://1c7f0746-aabd-4c01-8dc2-c7c891dca61d.mock.pstmn.io",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://1c7f0746-aabd-4c01-8dc2-c7c891dca61d.mock.pstmn.io",
+					"protocol": "https",
+					"host": [
+						"1c7f0746-aabd-4c01-8dc2-c7c891dca61d",
+						"mock",
+						"pstmn",
+						"io"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://1c7f0746-aabd-4c01-8dc2-c7c891dca61d.mock.pstmn.io",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://1c7f0746-aabd-4c01-8dc2-c7c891dca61d.mock.pstmn.io",
+							"protocol": "https",
+							"host": [
+								"1c7f0746-aabd-4c01-8dc2-c7c891dca61d",
+								"mock",
+								"pstmn",
+								"io"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\r\n    \"data\": {\r\n        \"name\": \"Example_response\",\r\n        \"message\": \"In front of you is a test plug\",\r\n        \"flag\": true\r\n    }\r\n}"
+				},
+				{
+					"name": "https://1c7f0746-aabd-4c01-8dc2-c7c891dca61d.mock.pstmn.io",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://1c7f0746-aabd-4c01-8dc2-c7c891dca61d.mock.pstmn.io",
+							"protocol": "https",
+							"host": [
+								"1c7f0746-aabd-4c01-8dc2-c7c891dca61d",
+								"mock",
+								"pstmn",
+								"io"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 16 Oct 2024 15:46:08 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "139"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=80ae3961b2410eb3"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=95bd7d0f056ce22a"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "120"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "119"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1729093628"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"8b-au+mEaBVsOPFQO0oSTR6yK4dhJo\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"name\": \"Example_response\",\n        \"message\": \"In front of you is a test plug\",\n        \"flag\": true\n    }\n}"
+				}
+			]
+		}
+	]
+}
